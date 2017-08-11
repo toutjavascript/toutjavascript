@@ -33,15 +33,13 @@ Indique pour chaque tutoriel, quelle est sa priorité et le principal rédacteur
 - Modèle objet (fusion des anciens tutos : Le JavaScript langage objet + Le Modèle objet Javascript)
 
 ### Manipulations d'éléments de pages web
+- Cookies
 - DOM (document object model)
 - Formulaires
-- Popups
-- Cookies
-- Réseau (Ajax/XMLHTTP)
 - Frames (surtout les iframes qui sont encore un peu utilisées)
-- Navigateur
-  - Données techniques (taille écran, UserAgent...)
-  - Historique
+- Historique
+- Navigateur (taille écran, UserAgent...)
+- Réseau (Ajax/XMLHTTP)
 
 ### Côté serveur
 - Javascript et PHP (+ autres langages couramment utilisés côté serveur comme Ruby, Python, C#...)
