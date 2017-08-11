@@ -1,4 +1,4 @@
-# Réécriture des tutoriels
+# Mise à jour des tutoriels
 
 ## [Sujet dédié sur le forum](http://www.toutjavascript.com/forum/viewtopic.php?f=7&t=59)
 
