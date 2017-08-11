@@ -19,7 +19,7 @@ La mise en place de solutions plus automatisées viendra selon l'évolution du t
 
 Indique pour chaque tutoriel, quelle est sa priorité et le principal rédacteur
 
-## Structure
+## Structure envisagée
 
 ### Démarrer
 - Introduction (j'inclurais dedans "Javascript / Java : rien à voir")
