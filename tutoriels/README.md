@@ -41,7 +41,7 @@ Indique pour chaque tutoriel, quelle est sa priorité et le principal rédacteur
 - Frames (surtout les iframes qui sont encore un peu utilisées)
 
 ### Côté serveur
-- Javascript et PHP (ou autres langages couramment utilisés côté serveur comme Ruby, Python, C#...)
+- Javascript et PHP (+ autres langages couramment utilisés côté serveur comme Ruby, Python, C#...)
 - Javascript côté serveur : Node.js & frameworks
 
 ### Autour du langage
