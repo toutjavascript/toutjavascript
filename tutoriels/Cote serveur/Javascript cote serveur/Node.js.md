@@ -57,3 +57,36 @@ Par exemple, [celui-ci](https://gist.github.com/RandomEtc/1803645) convertit un 
 
 ### Partie serveur d'une application web
 
+A l'aide des bibliothèques de base fournies avec **Node.js**, il est possible d'écrire un serveur web (voir [cet exemple très simplifié](https://blog.risingstack.com/your-first-node-js-http-server/)).
+
+Des frameworks spécifiques à **Node.js** comme [Express](http://expressjs.com/fr/) disposent de cette fonctionnalité "serveur web".
+
+Ainsi, en installant seulement **Node.js** et ce type de framework, on peut démarrer un projet d'application web en écrivant la partie serveur en Javascript, comme si on installait [XAMPP](https://www.apachefriends.org/fr/index.html) (Apache, PHP, MySQL) pour développer en PHP.
+
+Après avoir installé **Node.js** :
+
+* Créer un nouveau répertoire pour son projet et y ouvrir un terminal.
+* Lancer la commande `npm init`, ce qui permettra d'installer des **[packages npm](https://www.npmjs.com/)** pour votre projet. <!-- TODO lien vers tuto npm lorsqu'il sera rédigé --> Dans le cadre d'un projet test, vous pouvez ignorer toutes les questions posées en appuyant sur entrée.
+* Dans le répertoire de votre projet, vous constaterez que le lancement de `npm init` a créé un fichier `package.json`. Les futurs **packages npm** associés à votre projet y seront listés.
+* Installer **Express** en faisant `npm install express --save`. Cela va créer un sous-répertoire `node_modules` contenant le code des packages installés, et mettre à jour le fichier `package.json`.
+* Créer un fichier `app.js` contenant :
+
+    // Exemple adapté de la mise en route d'Express: http://expressjs.com/fr/starter/hello-world.html
+    var express = require('express');
+    var app = express();
+    
+    // '/' est la route racine
+    app.get('/', function (req, res) {
+        res.send('Bonjour !');
+    });
+
+    app.listen(3000, function () {
+        console.log("Application d'exemple écoutant sur le port 3000!");
+    });
+
+* Lancer `app.js` ce qui lancera le serveur web
+
+    > node app.js
+    Application d'exemple écoutant sur le port 3000!
+    
+* Ouvrir un navigateur et aller à l'adresse http://localhost:3000 ; le message `Bonjour !` doit s'afficher.
