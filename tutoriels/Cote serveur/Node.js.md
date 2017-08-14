@@ -43,7 +43,7 @@ Après avoir installé **Node.js** :
 
 * Créer un nouveau répertoire pour son projet et y ouvrir un terminal.
 
-* Lancer la commande `npm init`, ce qui permettra d'installer des **[packages npm](https://www.npmjs.com/)** pour votre projet. <!-- TODO lien vers tuto npm lorsqu'il sera rédigé --> Dans le cadre d'un projet test, vous pouvez ignorer toutes les questions posées en appuyant sur entrée.
+* Lancer la commande `npm init`, ce qui permettra d'installer des **[packages npm](https://www.npmjs.com/)** pour votre projet. Dans le cadre d'un projet test, vous pouvez ignorer toutes les questions posées en appuyant sur entrée.
 
 * Dans le répertoire de votre projet, vous constaterez que le lancement de `npm init` a créé un fichier `package.json`. Les futurs **packages npm** associés à votre projet y seront listés.
 
