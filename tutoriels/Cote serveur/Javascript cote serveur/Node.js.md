@@ -48,10 +48,12 @@ Lancer `script.js` :
 
 ## Utilisations courantes
 
-### Scripts "seuls"
+### Scripts isolés
 
+Traitements en tous genres, calculs, pouvant être lancés à intervalles réguliers
+comme tout programme exécutable en ligne de commande.
 
+Par exemple, [celui-ci](https://gist.github.com/RandomEtc/1803645) convertit un fichier CSV en page HTML.
 
 ### Partie serveur d'une application web
-
 
