@@ -6,7 +6,7 @@ Le contenu des [tutoriels proposés sur toutjavascript.com](http://www.toutjavas
 
 ## [Arborescence](https://docs.google.com/spreadsheets/d/1wDZpmB5Nns8ioTBJ5lxKgYgFmBzkT8UiYSZDSLTeXrI/edit?usp=sharing)
 
-Indique également pour chaque tutoriel, quelle est sa priorité et le principal rédacteur.
+GoogleDoc qui indique également pour chaque tutoriel, quelle est sa priorité et le principal rédacteur.
 
 ## Participer
 
