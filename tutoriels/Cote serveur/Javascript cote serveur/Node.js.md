@@ -66,27 +66,31 @@ Ainsi, en installant seulement **Node.js** et ce type de framework, on peut dém
 Après avoir installé **Node.js** :
 
 * Créer un nouveau répertoire pour son projet et y ouvrir un terminal.
+
 * Lancer la commande `npm init`, ce qui permettra d'installer des **[packages npm](https://www.npmjs.com/)** pour votre projet. <!-- TODO lien vers tuto npm lorsqu'il sera rédigé --> Dans le cadre d'un projet test, vous pouvez ignorer toutes les questions posées en appuyant sur entrée.
+
 * Dans le répertoire de votre projet, vous constaterez que le lancement de `npm init` a créé un fichier `package.json`. Les futurs **packages npm** associés à votre projet y seront listés.
+
 * Installer **Express** en faisant `npm install express --save`. Cela va créer un sous-répertoire `node_modules` contenant le code des packages installés, et mettre à jour le fichier `package.json`.
+
 * Créer un fichier `app.js` contenant :
 
-    // Exemple adapté de la mise en route d'Express: http://expressjs.com/fr/starter/hello-world.html
-    var express = require('express');
-    var app = express();
-    
-    // '/' est la route racine
-    app.get('/', function (req, res) {
-        res.send('Bonjour !');
-    });
+        // Exemple adapté de la mise en route d'Express: http://expressjs.com/fr/starter/hello-world.html
+        var express = require('express');
+        var app = express();
 
-    app.listen(3000, function () {
-        console.log("Application d'exemple écoutant sur le port 3000!");
-    });
+        // '/' est la route racine
+        app.get('/', function (req, res) {
+            res.send('Bonjour !');
+        });
+
+        app.listen(3000, function () {
+            console.log("Application d'exemple écoutant sur le port 3000!");
+        });
 
 * Lancer `app.js` ce qui lancera le serveur web
 
-    > node app.js
-    Application d'exemple écoutant sur le port 3000!
+        > node app.js
+        Application d'exemple écoutant sur le port 3000!
     
 * Ouvrir un navigateur et aller à l'adresse http://localhost:3000 ; le message `Bonjour !` doit s'afficher.
