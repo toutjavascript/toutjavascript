@@ -8,7 +8,7 @@ comme on pourrait lancer un programme en PHP ou Python en ligne de commande.
 Fonctionne sur les principaux systèmes (MacOS, Linux, Windows).
 
 Il suffit de [télécharger](https://nodejs.org/fr/download/) puis d'installer **Node.js** sur sa machine.
-Rédiger son code dans un fichier, puis lancer ce dernier en lançant simplement la commande :
+Rédiger son code dans un fichier, puis lancer ce dernier grâce à la commande :
 
     > node monfichier.js
 
