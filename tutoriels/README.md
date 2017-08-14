@@ -17,9 +17,9 @@ ou par le formulaire de contact.
 
 La mise en place de solutions plus automatisées viendra selon l'évolution du trafic et des revenus du site.
 
-## Statut des tutoriels (lien vers GoogleDoc à venir)
+## [Statut des tutoriels](https://docs.google.com/spreadsheets/d/1wDZpmB5Nns8ioTBJ5lxKgYgFmBzkT8UiYSZDSLTeXrI/edit?usp=sharing)
 
-Indique pour chaque tutoriel, quelle est sa priorité et le principal rédacteur
+Indique pour chaque tutoriel, quelle est sa priorité et le principal rédacteur.
 
 ## Structure envisagée
 
