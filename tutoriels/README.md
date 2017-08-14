@@ -4,10 +4,14 @@ Le contenu des [tutoriels proposés sur toutjavascript.com](http://www.toutjavas
 
 ## [Sujet dédié sur le forum TJS](http://www.toutjavascript.com/forum/viewtopic.php?f=7&t=59)
 
+## [Arborescence](https://docs.google.com/spreadsheets/d/1wDZpmB5Nns8ioTBJ5lxKgYgFmBzkT8UiYSZDSLTeXrI/edit?usp=sharing)
+
+Indique également pour chaque tutoriel, quelle est sa priorité et le principal rédacteur.
+
 ## Participer
 
 Pour participer, créer ou modifier les fichiers Markdown dans un des sous répertoires (par ex. `./Démarrer/Introduction.md`)
-correspondant à la structure détaillée ci-dessous.
+correspondant à l'[arborescence](https://docs.google.com/spreadsheets/d/1wDZpmB5Nns8ioTBJ5lxKgYgFmBzkT8UiYSZDSLTeXrI/edit?usp=sharing).
 
 Selon votre niveau d'accès, la création d'une "Pull Request" sera nécessaire, et sera ensuite validée ou non par un admin.
 
@@ -16,7 +20,3 @@ aller sur [Dillinger.io](http://dillinger.io), convertir le Markdown en HTML, et
 ou par le formulaire de contact.
 
 La mise en place de solutions plus automatisées viendra selon l'évolution du trafic et des revenus du site.
-
-## [Arborescence envisagée](https://docs.google.com/spreadsheets/d/1wDZpmB5Nns8ioTBJ5lxKgYgFmBzkT8UiYSZDSLTeXrI/edit?usp=sharing)
-
-+ Indique pour chaque tutoriel, quelle est sa priorité et le principal rédacteur.
