@@ -22,30 +22,6 @@ contenant uniquement la ligne `console.log('bonjour !');` va donner :
     > node monfichier.js
     bonjour !
 
-## Eléments spécifiques
-
-### Modules
-
-Afin d'organiser votre code, il est possible d'utiliser la fonctionnalité de modules proposée par **Node.js** pour réutiliser un groupe de fonctions dans plusieurs fichiers.
-
-Par exemple : créer un fichier `module.js` comportant une fonction "exportée" :
-
-    function fonctionTresUtile() {
-        console.log("Ceci s'affiche depuis une fonction exportée !");
-    }
-    
-    exports.fonctionTresUtile = fonctionTresUtile;
-
-Dans le même répertoire, créer un fichier `script.js` contenant :
-
-    const module = require('module'); // permet l'accès aux fonctions définies dans module.js
-    module.fonctionTresUtile(); // exécute la fonction exportée
-
-Lancer `script.js` :
-
-    > node script.js
-    Ceci s'affiche depuis une fonction exportée !
-
 ## Utilisations courantes
 
 ### Scripts isolés
@@ -94,3 +70,27 @@ Après avoir installé **Node.js** :
         Application d'exemple écoutant sur le port 3000!
     
 * Ouvrir un navigateur et aller à l'adresse http://localhost:3000 ; le message `Bonjour !` doit s'afficher.
+
+## Eléments spécifiques
+
+### Modules
+
+Afin d'organiser votre code, il est possible d'utiliser la fonctionnalité de modules proposée par **Node.js** pour réutiliser un groupe de fonctions dans plusieurs fichiers.
+
+Par exemple : créer un fichier `module.js` comportant une fonction "exportée" :
+
+    function fonctionTresUtile() {
+        console.log("Ceci s'affiche depuis une fonction exportée !");
+    }
+    
+    exports.fonctionTresUtile = fonctionTresUtile;
+
+Dans le même répertoire, créer un fichier `script.js` contenant :
+
+    const module = require('module'); // permet l'accès aux fonctions définies dans module.js
+    module.fonctionTresUtile(); // exécute la fonction exportée
+
+Lancer `script.js` :
+
+    > node script.js
+    Ceci s'affiche depuis une fonction exportée !
