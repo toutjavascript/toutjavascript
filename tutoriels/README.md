@@ -17,42 +17,6 @@ ou par le formulaire de contact.
 
 La mise en place de solutions plus automatisées viendra selon l'évolution du trafic et des revenus du site.
 
-## [Statut des tutoriels](https://docs.google.com/spreadsheets/d/1wDZpmB5Nns8ioTBJ5lxKgYgFmBzkT8UiYSZDSLTeXrI/edit?usp=sharing)
+## [Arborescence envisagée](https://docs.google.com/spreadsheets/d/1wDZpmB5Nns8ioTBJ5lxKgYgFmBzkT8UiYSZDSLTeXrI/edit?usp=sharing)
 
-Indique pour chaque tutoriel, quelle est sa priorité et le principal rédacteur.
-
-## Structure envisagée
-
-### Démarrer
-- Introduction (j'inclurais dedans "Javascript / Java : rien à voir")
-- Débugger (j'inclurais dedans "la console JS")
-- Limites du langage
-
-### Structures de langage
-- Structures de base (if, for, etc.)
-- Chaînes de caractères (peut être inclure "Expressions Régulières" dedans)
-- Tableaux
-- Modèle objet (fusion des anciens tutos : Le JavaScript langage objet + Le Modèle objet Javascript)
-
-### Manipulations d'éléments de pages web
-- Cookies
-- DOM (document object model)
-- Formulaires
-- Frames (surtout les iframes qui sont encore un peu utilisées)
-- Historique
-- Navigateur (taille écran, UserAgent...)
-- Réseau (Ajax/XMLHTTP)
-
-### Côté serveur
-- Javascript et PHP (+ autres langages couramment utilisés côté serveur comme Ruby, Python, C#...)
-- Javascript côté serveur : Node.js & frameworks
-
-### Autour du langage
-- Le gestionnaire de packages npm
-- Les "asset bundlers" (webpack)
-- Frameworks (éventuellement, faire une distinction entre les "généralistes" et ceux qui sont plus spécifiques)
-  - jQuery
-  - Angular
-  - React
-  - Vue
-- Développement pour mobile (Ionic, React Native...)
++ Indique pour chaque tutoriel, quelle est sa priorité et le principal rédacteur.
