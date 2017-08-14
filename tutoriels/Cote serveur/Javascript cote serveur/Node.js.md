@@ -31,7 +31,7 @@ Afin d'organiser votre code, il est possible d'utiliser la fonctionnalité de mo
 Par exemple : créer un fichier `module.js` comportant une fonction "exportée" :
 
     function fonctionTresUtile() {
-        console.log(`Ceci s'affiche depuis une fonction exportée !`);
+        console.log('Ceci s'affiche depuis une fonction exportée !');
     }
     
     exports.fonctionTresUtile = fonctionTresUtile;
