@@ -2,7 +2,7 @@
 
 ## Introduction
 
-[**Node.js**](https://nodejs.org/fr/) permet d'exécuter du Javascript en dehors du contexte du navigateur,
+[**Node.js**](https://nodejs.org/fr/) permet d'exécuter du JavaScript en dehors du contexte du navigateur,
 comme on pourrait lancer un programme en PHP ou Python en ligne de commande.
 
 Fonctionne sur les principaux systèmes (MacOS, Linux, Windows).
@@ -12,10 +12,10 @@ Rédiger son code dans un fichier, puis lancer ce dernier grâce à la commande 
 
     > node monfichier.js
 
-Attention, certaines fonctionnalités habituelles de Javascript (accès aux éléments HTML, taille de la fenêtre courante,
+Attention, certaines fonctionnalités habituelles de JavaScript (accès aux éléments HTML, taille de la fenêtre courante,
 gestion des Cookies...) seront inopérantes, puisque nous ne sommes pas ici dans le contexte d'un navigateur.
 
-L'instruction `console.log(...)`, au lieu d'écrire dans la [console Javascript](http://www.toutjavascript.com/savoir/navigateur-console-javascript.php)
+L'instruction `console.log(...)`, au lieu d'écrire dans la [console JavaScript](http://www.toutjavascript.com/savoir/navigateur-console-javascript.php)
 du navigateur, va afficher les informations directement à l'écran. Ainsi, lancer un fichier `bonjour.js`
 contenant uniquement la ligne `console.log('bonjour !');` va donner :
 
@@ -37,7 +37,7 @@ A l'aide des bibliothèques de base fournies avec **Node.js**, il est possible d
 
 Des frameworks spécifiques à **Node.js** comme [Express](http://expressjs.com/fr/) disposent de cette fonctionnalité "serveur web".
 
-Ainsi, en installant seulement **Node.js** et ce type de framework, on peut démarrer un projet d'application web en écrivant la partie serveur en Javascript, comme si on installait [XAMPP](https://www.apachefriends.org/fr/index.html) (Apache, PHP, MySQL) pour développer en PHP.
+Ainsi, en installant seulement **Node.js** et ce type de framework, on peut démarrer un projet d'application web en écrivant la partie serveur en JavaScript, comme si on installait [XAMPP](https://www.apachefriends.org/fr/index.html) (Apache, PHP, MySQL) pour développer en PHP.
 
 Après avoir installé **Node.js** :
 
