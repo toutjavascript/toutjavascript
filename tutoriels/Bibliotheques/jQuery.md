@@ -11,10 +11,12 @@ animations et effets graphiques, gestion d'événements.
 Très en vogue au début des années 2010, le recours à cette bibliothèque devient moins systématique,
 notamment grâce à l'évolution des navigateurs vers un meilleur support des nouveaux standards (surtout JavaScript et CSS).
 
-En effet, il faut accepter le coût d'un chargement de ressource supplémentaire (certes réduit à 32 Ko compressé),
-ainsi que de moins bonnes performances d'exécution par rapport à du JavaScript natif (à relativiser, car avant
+En effet, le coût de jQuery est :
+- Un chargement de ressource supplémentaire (certes réduit à 32 Ko compressé),
+- De moins bonnes performances d'exécution par rapport à du JavaScript natif (à relativiser, car avant
 que la différence soit détectable par l'utilisateur, il y a quand même une sacrée marge).
-Voir (en anglais) [cette question StackOverflow](https://stackoverflow.com/q/41948057/488666).
+
+Voir [cette question StackOverflow](https://stackoverflow.com/q/41948057/488666) (en anglais).
 
 ## Mise en route
 
@@ -41,15 +43,15 @@ Ce qui donne (adapté de l'[exemple du site officiel](https://learn.jquery.com/a
     </body>
     </html>
 
-A présent nous allons créer un `<div>`, auquel nous allons attacher un événement "click()"
-et faire afficher "Bonjour" dans un autre `<div>`.
+A présent pour essayer jQuery, nous allons créer un `<div>`, auquel nous allons attacher un événement `click()`
+pour afficher "Bonjour" dans un autre `<div>` lors de ce clic.
 
 En HTML nous rajoutons donc :
 
     <div id="cliquable">Clique moi</div>
     <div id="affichage">...</div>
 
-Et à la place de `Votre code ici` :
+Et à la place de `Votre code ici`, mettons :
 
     $(document).ready(function() { // la page et les images sont chargées et manipulables avec jQuery
         $('#cliquable').click(function() {
@@ -58,6 +60,16 @@ Et à la place de `Votre code ici` :
     });
 
 [Voir la démonstration](https://jsfiddle.net/dL4sgf6a/1/).
+
+Remarques :
+
+- `$` représente l'objet global jQuery.
+
+- On voit d'emblée qu'il est possible de **désigner** des éléments HTML et de leur appliquer
+des fonctionnalités JavaScript, de la même manière qu'on applique des styles en CSS.
+Il est possible de le faire également en natif avec `document.querySelectorAll()` mais jQuery
+va plus loin, comme nous le verrons ensuite.
+
 
 ## Exemples d'utilisation courants
 
