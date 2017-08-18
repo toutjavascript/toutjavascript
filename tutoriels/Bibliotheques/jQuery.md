@@ -131,7 +131,7 @@ Les plugins jQuery peuvent également être associés à un projet à l'aide du 
 Permet de charger uniquement la partie "sélecteur" de jQuery (par ex. `Sizzle('.conteneur .element')`),
 qui pèse seulement 4 Ko compressée.
 
-Pour correspondre à la syntaxe courante jQuery, on peut faire un `var $ = Sizzle;` au début du script.
+Pour correspondre à la syntaxe jQuery, on peut faire un `var $ = Sizzle;` au début du script.
 
 Attention : retourne un tableau d'objets HTML natifs, et non d'objets jQuery. On ne peut donc pas y appliquer
 les méthodes de jQuery telles que `.click()`, `.css('propriété', 'valeur')`, `.each()`, etc.
@@ -161,3 +161,7 @@ Voir ces fonctionnalités en action sur : http://jqueryui.com/demos/
 
 ### jQuery Mobile
 
+Se présente comme un véritable framework, qui propose des élements d'interface "responsive"
+(s'adaptent automatiquement aux différentes tailles d'écran disponibles : mobiles, tablettes, écrans de bureau)
+
+Voir les démonstrations ici : http://demos.jquerymobile.com/
