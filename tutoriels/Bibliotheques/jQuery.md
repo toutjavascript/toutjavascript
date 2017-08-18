@@ -13,7 +13,7 @@ Au programme :
 - Gestion d'événements
 
 Très en vogue au début des années 2010, le recours à cette bibliothèque devient moins systématique,
-notamment grâce à l'évolution des navigateurs vers un meilleur support des nouveaux standards (surtout JavaScript et CSS).
+notamment grâce à l'évolution des [standards du web](https://fr.wikipedia.org/wiki/Standards_du_Web) et des navigateurs.
 
 En effet, le coût de jQuery est :
 - Un chargement de ressource supplémentaire (certes réduit à 32 Ko compressé),
