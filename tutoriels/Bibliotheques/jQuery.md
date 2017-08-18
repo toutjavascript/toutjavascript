@@ -154,8 +154,8 @@ Voir (en anglais) : http://youmightnotneedjquery.com/
 
 [jQuery UI](http://jqueryui.com) permet, en très peu de lignes de code, d'améliorer l'interactivité des interfaces avec :
 
-- des manipulations d'éléments visuels (drag & drop...)
-- des éléments (widgets) avancés (menus, onglets, date picker, barre de progression...)
+- des éléments manipulables par l'utilisateur : drag & drop, retallier, trier...
+- des éléments d'interface (widgets) avancés : menus, onglets, date picker, barre de progression...
 
 Voir ces fonctionnalités en action sur : http://jqueryui.com/demos/
 
