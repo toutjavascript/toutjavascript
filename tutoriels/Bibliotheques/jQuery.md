@@ -5,8 +5,12 @@
 Les forces de cette bibliothèque : **simplifier** l'écriture pour des besoins très fréquents en JavaScript,
 tout en garantissant une **compatibilité** confortable avec les principaux navigateurs, y compris d'anciennes versions (IE 9+).
 
-Au programme : sélection d'éléments de page web, requêtes [Ajax/XMLHTTP](http://www.toutjavascript.com/savoir/xmlhttprequest.php3),
-animations et effets graphiques, gestion d'événements.
+Au programme :
+
+- Sélection d'éléments de page web
+- Requêtes [Ajax/XMLHTTP](http://www.toutjavascript.com/savoir/xmlhttprequest.php3)
+- Animations et effets graphiques
+- Gestion d'événements
 
 Très en vogue au début des années 2010, le recours à cette bibliothèque devient moins systématique,
 notamment grâce à l'évolution des navigateurs vers un meilleur support des nouveaux standards (surtout JavaScript et CSS).
