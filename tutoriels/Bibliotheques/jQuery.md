@@ -71,11 +71,16 @@ Remarques :
 
 - On voit d'emblée qu'il est possible de **désigner** des éléments HTML et de leur appliquer
 des fonctionnalités JavaScript, de la même manière qu'on applique des styles en CSS.
-Il est possible de le faire également en natif avec `document.querySelectorAll()` mais jQuery
-va plus loin, comme nous le verrons ensuite.
+Il est possible de le faire également en natif avec `document.querySelector()` et `document.querySelectorAll()`
+mais jQuery va plus loin, comme nous le verrons ensuite.
 
 
 ## Exemples d'utilisation courants
+
+
+
+## Plugins
+
 
 
 
@@ -83,7 +88,15 @@ va plus loin, comme nous le verrons ensuite.
 
 ### Sizzle
 
+Permet de charger uniquement la partie "sélecteur" de jQuery (par ex. `Sizzle('.conteneur .element')`),
+qui pèse seulement 4 Ko compressée.
 
+Pour correspondre à la syntaxe courante jQuery, on peut faire un `var $ = Sizzle;` au début du script.
+
+Attention : retourne un tableau d'objets HTML natifs, et non d'objets jQuery. On ne peut donc pas y appliquer
+les méthodes de jQuery telles que `.click()`, `.css('propriété', 'valeur')`, `.each()`, etc.
+
+Voir : https://sizzlejs.com/
 
 ### Zepto
 
