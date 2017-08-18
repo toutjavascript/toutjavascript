@@ -133,7 +133,7 @@ qui pèse seulement 4 Ko compressée.
 
 Pour correspondre à la syntaxe jQuery, on peut faire un `var $ = Sizzle;` au début du script.
 
-Attention : retourne un tableau d'objets HTML natifs, et non d'objets jQuery. On ne peut donc pas y appliquer
+Attention : retourne un tableau d'objets HTML natifs, et non d'objets jQuery. On ne peut donc pas leur appliquer
 les méthodes de jQuery telles que `.click()`, `.css('propriété', 'valeur')`, `.each()`, etc.
 
 Voir : https://sizzlejs.com/
