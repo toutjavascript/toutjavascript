@@ -20,7 +20,10 @@ En effet, le coût de jQuery est :
 - De moins bonnes performances d'exécution par rapport à du JavaScript natif (à relativiser, car avant
 que la différence soit détectable par l'utilisateur, il y a quand même une sacrée marge).
 
-Voir [cette question StackOverflow](https://stackoverflow.com/q/41948057/488666) (en anglais).
+[Ce site](http://youmightnotneedjquery.com/) liste les fonctions de jQuery et leur équivalent en natif,
+permettant ainsi d'éviter de charger tout jQuery si on n'a besoin que d'une poignée de fonctions.
+
+Voir aussi [cette question StackOverflow](https://stackoverflow.com/q/41948057/488666) (en anglais).
 
 ## Mise en route
 
@@ -143,12 +146,6 @@ Voir : https://sizzlejs.com/
 Une bibliothèque presque équivalente à **jQuery**, en faisant quelques sacrifices sur la compatibilité avec les anciens navigateurs,
 ce qui lui permet d'être encore plus légère : moins de 10 Ko compressée.
 Voir : http://zeptojs.com/
-
-### Puis-je me passer de jQuery ?
-
-Liste des opérations courantes avec jQuery et leur équivalent en natif.
-Permet d'éviter de recourir à jQuery si on n'a besoin que d'une poignée de fonctions.
-Voir (en anglais) : http://youmightnotneedjquery.com/
 
 ### jQuery UI
 
