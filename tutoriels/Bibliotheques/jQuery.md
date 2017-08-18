@@ -91,7 +91,7 @@ Lorsqu'on clique sur une actualité, cela fait apparaître son texte
 
 Si on clique à nouveau dessus, le texte se replie.
 
-_J'ai créé ici [l'exemple correspondant](https://jsfiddle.net/FrostyZ/b8do9eyp/6/).
+_[Frosty] J'ai créé ici [l'exemple correspondant](https://jsfiddle.net/FrostyZ/b8do9eyp/6/).
 Il reste cependant limité par les possibilités de JSFiddle. Il faut notamment rajouter le chargement
 des données en Ajax._
 
@@ -122,7 +122,7 @@ Les plus populaires sont :
 
 Voir ici (en anglais) : http://www.jqueryscript.net/popular/
 
-Les plugins jQuery peuvent également être associés à un projet à l'aide du gestionnaire de packages **npm**. _TODO: lien vers tuto **npm**]_
+Les plugins jQuery peuvent également être associés à un projet à l'aide du gestionnaire de packages **npm**. _[Frosty] rajouter le lien vers le tuto **npm** lorsqu'il existera]_
 
 ## Compléments
 
@@ -152,4 +152,12 @@ Voir (en anglais) : http://youmightnotneedjquery.com/
 
 ### jQuery UI
 
+[jQuery UI](http://jqueryui.com) permet, en très peu de lignes de code, d'améliorer l'interactivité des interfaces avec :
+
+- des manipulations d'éléments visuels (drag & drop...)
+- des éléments (widgets) avancés (menus, onglets, date picker, barre de progression...)
+
+Voir ces fonctionnalités en action sur : http://jqueryui.com/demos/
+
 ### jQuery Mobile
+
