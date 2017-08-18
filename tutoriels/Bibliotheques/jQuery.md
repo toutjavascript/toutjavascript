@@ -158,7 +158,7 @@ Voir ces fonctionnalités en action sur : http://jqueryui.com/demos/
 
 ### jQuery Mobile
 
-Se présente comme un véritable framework, qui propose des élements d'interface "responsive"
+Se présente comme un véritable framework, qui propose notamment des élements d'interface "responsive"
 (s'adaptent automatiquement aux différentes tailles d'écran disponibles : mobiles, tablettes, écrans de bureau)
 
 Voir les démonstrations ici : http://demos.jquerymobile.com/
