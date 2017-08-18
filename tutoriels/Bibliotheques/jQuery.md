@@ -77,6 +77,25 @@ mais jQuery va plus loin, comme nous le verrons ensuite.
 
 ## Exemples d'utilisation courants
 
+### Requêtes Ajax
+
+    // A créer
+    var URL = 'http://www.toutjavascript.com/savoir/Bibliotheques/jQuery-exemple-news.json';
+    
+    $.ajax({
+        url: URL,
+        method: 'GET'
+    }).then(function(data) {
+        ...
+    });
+
+Ici un exemple qui crée des `<div>` cliquables à partir de données JSON :
+https://jsfiddle.net/FrostyZ/b8do9eyp/2/
+
+### Sélection
+
+
+### Animations
 
 
 ## Plugins
