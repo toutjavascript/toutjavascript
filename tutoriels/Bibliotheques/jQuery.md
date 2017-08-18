@@ -75,9 +75,25 @@ Il est possible de le faire également en natif avec `document.querySelector()` 
 mais jQuery va plus loin, comme nous le verrons ensuite.
 
 
-## Exemples d'utilisation courants
+## Exemple complet
 
-### Requêtes Ajax
+Effectue :
+
+- Une requête Ajax
+- Plusieurs utilisations de sélecteurs et méthodes jQuery
+- Une animation
+
+Après avoir récupéré des actualités sous formes d'un tableau d'objets (JSON),
+ce script affiche chaque actualité.
+
+Lorsqu'on clique sur une actualité, cela fait apparaître son texte
+à l'aide d'une animation "slide".
+
+Si on clique à nouveau dessus, le texte se replie.
+
+_J'ai créé ici [l'exemple correspondant](https://jsfiddle.net/FrostyZ/b8do9eyp/6/).
+Il reste cependant limité par les possibilités de JSFiddle. Il faut notamment rajouter le chargement
+des données en Ajax._
 
     // A créer
     var URL = 'http://www.toutjavascript.com/savoir/Bibliotheques/jQuery-exemple-news.json';
@@ -89,19 +105,24 @@ mais jQuery va plus loin, comme nous le verrons ensuite.
         ...
     });
 
-Ici un exemple qui crée des `<div>` cliquables à partir de données JSON :
-https://jsfiddle.net/FrostyZ/b8do9eyp/2/
-
-### Sélection
-
-
-### Animations
-
+Réaliser ces opérations en JavaScript natif serait nettement plus fastidieux.
 
 ## Plugins
 
+Le [répertoire de plugins de jQuery](https://plugins.jquery.com/) dispose de plus de 2500 plugins.
 
+Il s'agit le plus souvient d'éléments d'interface ou d'utilitaires.
 
+Les plus populaires sont :
+
+- Des diaporamas / sliders
+- Des fonctionnalités pour les formulaires (liste déroulante à choix multiples,  validation simplifiée, upload de fichiers...)
+- Des "widgets" ou éléments d'interface plus évolués (popups à base de `<div>`, menus "responsive"...)
+- Des utilitaires (par ex. export de tableau HTML vers CSV/Excel)
+
+Voir ici (en anglais) : http://www.jqueryscript.net/popular/
+
+Les plugins jQuery peuvent également être associés à un projet à l'aide du gestionnaire de packages **npm**. _TODO: lien vers tuto **npm**]_
 
 ## Compléments
 
